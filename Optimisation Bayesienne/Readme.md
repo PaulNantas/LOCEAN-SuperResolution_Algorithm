@@ -1,4 +1,4 @@
-##Codes pour réaliser une optimisation Bayesinne sur l'architecture Resac 
+## Codes pour réaliser une optimisation Bayesinne sur l'architecture Resac 
 
 L'optimisation bayesienne est une méthode qui permet d'optimiser une fonction dépendant de multiples paramètres et d'approcher son minimum global en limitant les possibilités de rester coincer dans un minimum local. 
 
@@ -16,7 +16,7 @@ R03 : 1296*1377 pixels (1.5 * 1.5 km²)
 
 J'ai réalisé l'optimisation bayesienne sur chaque étages au fur et à mesure.
 
-##Codes
+## Codes
 
 Les fichiers OBXxYy.py correspondent à l'optimisation de l'étage passant de la résolution RXx à la résolution RYy. 
 
