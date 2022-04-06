@@ -1,4 +1,4 @@
-##Architecture optimale
+## Architecture optimale
 
 
 L'architecture présente dans le code resacart.py est celle obtenue grâce à l'optimisation bayesienne réalisée étape par étape aux différentes résolutions.
