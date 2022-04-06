@@ -2,7 +2,7 @@
 
 Ce dossier contient une nouvelle approche de l’ajout des prédictions d’incertitude à notre modèle.
 Nous avons pensé à réaliser dans un premier temps un pré-entrainement du réseau qui comparera les prédictions aux données d’entrainements et l’incertitude des prédictions à un bruit fictif défini de la manière suivante 
-
+![equation](https://latex.codecogs.com/svg.image?\sigma_{fictif}&space;=&space;\frac{\mu&space;&plus;&space;\epsilon}{C}&space;\&space;\&space;&space;\epsilon&space;&space;\hookrightarrow&space;N(0,0.2))
 $\sigma_{fictif} = frac{\mu + \epsilon}{C} avec \epsilon -> N(0,0.2)$
 
 Dans ce pré-entrainement, la fonction de coût serait : 
