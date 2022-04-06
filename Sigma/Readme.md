@@ -6,6 +6,6 @@ Nous avons pensé à réaliser dans un premier temps un pré-entrainement du ré
 
 Dans ce pré-entrainement, la fonction de coût serait : 
 
-![equation](https://latex.codecogs.com/svg.image?J(\hat{y}_{ij},&space;\hat{\sigma_{ij}}&space;)&space;=&space;\frac{1}{2N}\sum_{i,&space;j}(y_{ij}-\hat{y}_{ij})^2&space;&plus;&space;(\sigma_{ij}-\hat{\sigma}_{fictif,\&space;ij})^2)
+![equation](https://latex.codecogs.com/svg.image?J(\hat{y}_{ij},&space;\hat{\sigma_{ij}}&space;)&space;=&space;\frac{1}{2N}\sum_{i,&space;j}(y_{ij}-\hat{y}_{ij})^2&space;&plus;&space;(\sigma_{ij}-\hat{\sigma}_{fictif,\&space;ij})^2 )
 
 À la suite de ce pré-entrainement, nous pourrions réaliser l’entrainement qui ne s’est pas avéré concluant pour voir si le ”réseau guidé” en pré-entrainement permet d’avoir des résultats sur cette incertitude. 
